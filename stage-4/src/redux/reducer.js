@@ -52,6 +52,6 @@ export function removeFromShoppingCart(productIndex) {
 export function getAllProducts(products) {
     return {
         type: GET_ALL_PRODUCTS,
-        payload: productsController.getAllProducts()
+        payload: productsController
     }
 }
